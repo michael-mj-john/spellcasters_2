@@ -1,0 +1,195 @@
+fileFormatVersion: 2
+guid: 4845e9a38dd9c3c42a2b2037745ed0b3
+timeCreated: 1503048630
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: pSphere1
+    100004: Torso
+    100006: pasted__pasted__polySurface3
+    100008: Cape
+    100010: group
+    100012: pasted__Torso
+    100014: Scarf
+    100016: Armor
+    100018: polySurface1
+    100020: polySurface3
+    100022: ArmorGroup
+    100024: polySurface4
+    100026: transform1
+    100028: transform2
+    100030: transform3
+    100032: Chest
+    100034: PadLeft
+    100036: PadRight
+    100038: Skirt
+    100040: transform4
+    100042: Armor1
+    100044: transform5
+    100046: transform6
+    100048: transform7
+    100050: transform8
+    100052: polySurface5
+    100054: polySurface6
+    100056: polySurface7
+    100058: polySurface8
+    100060: transform9
+    100062: bend1Handle
+    400000: //RootNode
+    400002: pSphere1
+    400004: Torso
+    400006: pasted__pasted__polySurface3
+    400008: Cape
+    400010: group
+    400012: pasted__Torso
+    400014: Scarf
+    400016: Armor
+    400018: polySurface1
+    400020: polySurface3
+    400022: ArmorGroup
+    400024: polySurface4
+    400026: transform1
+    400028: transform2
+    400030: transform3
+    400032: Chest
+    400034: PadLeft
+    400036: PadRight
+    400038: Skirt
+    400040: transform4
+    400042: Armor1
+    400044: transform5
+    400046: transform6
+    400048: transform7
+    400050: transform8
+    400052: polySurface5
+    400054: polySurface6
+    400056: polySurface7
+    400058: polySurface8
+    400060: transform9
+    400062: bend1Handle
+    2300000: pSphere1
+    2300002: Torso
+    2300004: //RootNode
+    2300006: pasted__pasted__polySurface3
+    2300008: Cape
+    2300010: pasted__Torso
+    2300012: Scarf
+    2300014: polySurface1
+    2300016: polySurface3
+    2300018: Armor
+    2300020: Chest
+    2300022: PadLeft
+    2300024: PadRight
+    2300026: Skirt
+    2300028: polySurface5
+    2300030: polySurface6
+    2300032: polySurface7
+    2300034: polySurface8
+    3300000: pSphere1
+    3300002: Torso
+    3300004: //RootNode
+    3300006: pasted__pasted__polySurface3
+    3300008: Cape
+    3300010: pasted__Torso
+    3300012: Scarf
+    3300014: polySurface1
+    3300016: polySurface3
+    3300018: Armor
+    3300020: Chest
+    3300022: PadLeft
+    3300024: PadRight
+    3300026: Skirt
+    3300028: polySurface5
+    3300030: polySurface6
+    3300032: polySurface7
+    3300034: polySurface8
+    4300000: Torso
+    4300002: pSphere1
+    4300004: pasted__pasted__polySurface3
+    4300006: Scarf
+    4300008: Cape
+    4300010: pasted__Torso
+    4300012: polySurface1
+    4300014: polySurface3
+    4300016: Armor
+    4300018: PadRight
+    4300020: Skirt
+    4300022: Chest
+    4300024: PadLeft
+    4300026: polySurface5
+    4300028: polySurface6
+    4300030: polySurface7
+    4300032: polySurface8
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

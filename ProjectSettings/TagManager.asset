@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Fire
+  - RespawnDefault
+  - Spell
+  - Target
+  - Enemy
+  - TeleportIgnore
+  - TimeOut
+  - Scoreboard
+  - RedPlatform
+  - BluePlatform
+  - Shield
+  - SpellHitter
+  - CameraRig
+  - Grabbable
+  - put
+  - findHat
+  - PenaltyBox
+  - HatRoom
+  - NetworkManager
+  - PCP
+  - Stage
+  - Pong_Shield_Plane
+  - Curse
+  - Powerup
+  - RoundManager
+  - glyph
+  - Pregame
+  - Arena
+  - FxTemporaire
+  - projectile
+  - GrayPlatform
+  - PowerUpManager
+  - Neutral
+  - PlatformTrigger
+  - Username
+  - ShieldBreaker
+  - HatTable
+  - Penalty
+  - Teleporter
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - BluePlatform
+  - RedPlatform
+  - PenaltyBox
+  - PongShieldPlane
+  - MeteorTargettable
+  - Curse
+  - Neutral
+  - GrayPlatform
+  - PlatformTrigger
+  - HatTable
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: VFX
+    uniqueID: 2030725121
+    locked: 0
+  - name: GUI
+    uniqueID: 2379361113
+    locked: 0

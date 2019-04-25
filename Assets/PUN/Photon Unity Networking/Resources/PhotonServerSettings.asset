@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f3758f8f58fdef43803eb9be1df0608, type: 3}
+  m_Name: PhotonServerSettings
+  m_EditorClassIdentifier: 
+  AppID: 1a0ce353-7fde-4595-8dc4-ed1d8a512c4d
+  VoiceAppID: dc336442-2c76-4fcc-b0dd-c4541f0c9a15
+  ChatAppID: 1a0ce353-7fde-4595-8dc4-ed1d8a512c4d
+  HostType: 1
+  PreferredRegion: 1
+  EnabledRegions: -1
+  Protocol: 0
+  ServerAddress: 
+  ServerPort: 5055
+  VoiceServerPort: 5055
+  JoinLobby: 0
+  EnableLobbyStatistics: 0
+  PunLogging: 0
+  NetworkLogging: 1
+  RunInBackground: 1
+  RpcList:
+  - Chat
+  - ColorRpc
+  - DestroyRpc
+  - DoJump
+  - Flash
+  - InstantiateRpc
+  - Marco
+  - PickupItemInit
+  - Polo
+  - PunPickup
+  - PunPickupSimple
+  - PunRespawn
+  - RequestForPickupItems
+  - RequestForPickupTimes
+  - TaggedPlayer
+  - UpdateScoreboard
+  - Test
+  - SetBlue2
+  - SetRed2
+  - setClass
+  - SetMat
+  - ResetScoreboard
+  - RestartRound
+  - UpdatePowerupManager
+  - SetRandomSpell
+  - setRandomSpell
+  - TakeDamage
+  - ChangeColor
+  - ChangePlatformColor
+  - SetBlue
+  - SetRed
+  - DestroyVines
+  - DealDamage
+  - IncrementBlueScore2
+  - IncrementRedScore2
+  - Reset2
+  - HasPlayer2
+  - Display_Countdown
+  - Teleport
+  - Display_Restart
+  - EndRound
+  - StartRound
+  - SetClass
+  - SetMaterial
+  - SetUsername
+  - onHandTrue
+  - onHeadTrue
+  - tossObject
+  - PUhit
+  - set_BubbleShield
+  - PlaySoundToOthers
+  - ResetOnTeleporter
+  - ChangeColorTo
+  - HasPowerup2
+  - HasVines2
+  - DestroyShield
+  - Die
+  - Respawn
+  - deathSpriteActive
+  - SetSpellcastingEnabled
+  - unset_BubbleShield
+  DisableAutoOpenWizard: 1

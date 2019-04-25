@@ -1,0 +1,13 @@
+#JSGF V1.0;
+
+/**
+ * JSGF Digits Grammar file
+ */
+
+grammar digits;
+
+public <miscellaneous> = (quit);
+
+public <basicCmd> = <animals>;
+
+<animals> = (fire blast | shield block | life heal);

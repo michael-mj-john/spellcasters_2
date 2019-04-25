@@ -1,0 +1,94 @@
+{
+    "gestures": [
+        {
+            "name": "Fire",
+            "hand": 1,
+            "isSynchronous": false,
+            "exampleCount": 16
+        },
+        {
+            "name": "Shield",
+            "hand": 1,
+            "isSynchronous": false,
+            "exampleCount": 14
+        },
+        {
+            "name": "Heal",
+            "hand": 1,
+            "isSynchronous": false,
+            "exampleCount": 12
+        },
+        {
+            "name": "Wave",
+            "hand": 1,
+            "isSynchronous": false,
+            "exampleCount": 15
+        },
+        {
+            "name": "Diamond",
+            "hand": 1,
+            "isSynchronous": false,
+            "exampleCount": 6
+        },
+        {
+            "name": "Spring",
+            "hand": 1,
+            "isSynchronous": false,
+            "exampleCount": 10
+        },
+        {
+            "name": "OpenFrame",
+            "hand": 1,
+            "isSynchronous": false,
+            "exampleCount": 13
+        },
+        {
+            "name": "Zed",
+            "hand": 1,
+            "isSynchronous": false,
+            "exampleCount": 9
+        },
+        {
+            "name": "Star",
+            "hand": 1,
+            "isSynchronous": false,
+            "exampleCount": 13
+        },
+        {
+            "name": "Fireball",
+            "hand": 1,
+            "isSynchronous": false,
+            "exampleCount": 9
+        },
+        {
+            "name": "Jay",
+            "hand": 1,
+            "isSynchronous": false,
+            "exampleCount": 12
+        },
+        {
+            "name": "Hourglass",
+            "hand": 1,
+            "isSynchronous": false,
+            "exampleCount": 13
+        },
+        {
+            "name": "Bolt",
+            "hand": 1,
+            "isSynchronous": false,
+            "exampleCount": 13
+        },
+        {
+            "name": "Four",
+            "hand": 1,
+            "isSynchronous": false,
+            "exampleCount": 17
+        },
+        {
+            "name": "Elle",
+            "hand": 1,
+            "isSynchronous": false,
+            "exampleCount": 11
+        }
+    ]
+}
