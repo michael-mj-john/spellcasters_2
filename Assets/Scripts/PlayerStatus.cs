@@ -70,7 +70,7 @@ public class PlayerStatus : MonoBehaviour, IPunObservable
         bookLogic = transform.parent.GetComponentInChildren<BookLogic>();
         hats = GameObject.FindGameObjectsWithTag("Grabbable");
         self_photonview = GetComponent<PhotonView>();
-        if (VRDevice.model.ToLower().Contains("oculus"))
+        if (UnityEngine.XR.XRDevice.model.ToLower().Contains("oculus"))
         {
             isOculus = true;
         }
@@ -118,7 +118,7 @@ public class PlayerStatus : MonoBehaviour, IPunObservable
             // Rotate for oculus players
             if (rightAnalogueHoriz > .5f)
             {
-                if (rotated == false && VRDevice.model.ToLower().Contains("oculus"))
+                if (rotated == false && UnityEngine.XR.XRDevice.model.ToLower().Contains("oculus"))
                 {
                     //cameraRig.transform.rotation = cameraRig.transform.rotation.eulerAngles + new Vector3 (0, 90, 0);
                     cameraRig.transform.eulerAngles += new Vector3(0, 45, 0);
@@ -127,7 +127,7 @@ public class PlayerStatus : MonoBehaviour, IPunObservable
             }
             else if (rightAnalogueHoriz < -.5f)
             {
-                if (rotated == false && VRDevice.model.ToLower().Contains("oculus"))
+                if (rotated == false && UnityEngine.XR.XRDevice.model.ToLower().Contains("oculus"))
                 {
                     //cameraRig.transform.rotation = cameraRig.transform.rotation.eulerAngles + new Vector3 (0, 90, 0);
                     cameraRig.transform.eulerAngles += new Vector3(0, -45, 0);
@@ -381,7 +381,7 @@ public class PlayerStatus : MonoBehaviour, IPunObservable
         // determines where the player is placed on the penalty box
         bool isBlue = this.transform.parent.GetComponent<TeamManager>().blue;
         Transform penalty = pm.GetPenaltyTransform(isBlue);
-        if (!VRDevice.model.ToLower().Contains("oculus"))
+        if (!UnityEngine.XR.XRDevice.model.ToLower().Contains("oculus"))
         {
             cameraRig.transform.rotation = Quaternion.Euler(0, cameraRig.transform.eulerAngles.y + (270 - Camera.main.transform.eulerAngles.y), 0);
         }

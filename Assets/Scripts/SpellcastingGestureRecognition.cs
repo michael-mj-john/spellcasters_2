@@ -153,7 +153,7 @@ public class SpellcastingGestureRecognition : MonoBehaviour
 
     private void Start()
     {
-        if (VRDevice.model.ToLower().Contains("oculus"))
+        if (UnityEngine.XR.XRDevice.model.ToLower().Contains("oculus"))
         {
             isOculus = true;
         }

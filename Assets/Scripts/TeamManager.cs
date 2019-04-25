@@ -130,7 +130,7 @@ public class TeamManager : MonoBehaviour {
                 blueSquares = GameObject.FindGameObjectsWithTag("BluePlatform");
                 randPlatform = blueSquares[Random.Range(0, blueSquares.Length - 1)].transform;
             }
-            if (!VRDevice.model.ToLower().Contains("oculus"))
+            if (!UnityEngine.XR.XRDevice.model.ToLower().Contains("oculus"))
             {
                 //print("Vive Rotation");
                 cameraRig.GetComponent<PlatformController>().SetPlatform(randPlatform,
@@ -153,7 +153,7 @@ public class TeamManager : MonoBehaviour {
                 redSquares = GameObject.FindGameObjectsWithTag("RedPlatform");
                 randPlatform = redSquares[Random.Range(0, redSquares.Length - 1)].transform;
             }
-            if (!VRDevice.model.ToLower().Contains("oculus"))
+            if (!UnityEngine.XR.XRDevice.model.ToLower().Contains("oculus"))
             {
                 //print("Vive Rotation");
                 cameraRig.GetComponent<PlatformController>().SetPlatform(randPlatform,

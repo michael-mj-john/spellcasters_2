@@ -245,7 +245,7 @@ public class NetworkManager1 : Photon.PunBehaviour
         book.guide = guide;
         guide.book = book;
         StartCoroutine(placePlayerRoutine());
-        if(VRDevice.model.ToLower().Contains("oculus"))
+        if(UnityEngine.XR.XRDevice.model.ToLower().Contains("oculus"))
         {
             cameraRig.transform.rotation = Quaternion.Euler(0, 180, 0);
         }

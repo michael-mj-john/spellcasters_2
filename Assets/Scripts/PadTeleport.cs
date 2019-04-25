@@ -50,7 +50,7 @@ public class PadTeleport : MonoBehaviour
         reticle.GetComponent<Renderer>().material = reticleMat;
         reticle.SetActive(false);
 
-		if (VRDevice.model.ToLower().Contains("oculus"))
+		if (UnityEngine.XR.XRDevice.model.ToLower().Contains("oculus"))
 		{
 			isOculus = true;
 		}

@@ -227,7 +227,7 @@ public class RoundManager : MonoBehaviour {
         if (hatRoom)
         {
             Vector3 newPos = hatRoom.GetChild(Random.Range(0, hatRoom.childCount-1)).transform.position;
-            if (!VRDevice.model.ToLower().Contains("oculus"))
+            if (!UnityEngine.XR.XRDevice.model.ToLower().Contains("oculus"))
             {
                 player.transform.rotation = 
                 Quaternion.Euler(0, player.transform.eulerAngles.y + (180 - Camera.main.transform.eulerAngles.y), 0);
