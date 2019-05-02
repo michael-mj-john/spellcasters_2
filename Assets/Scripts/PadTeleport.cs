@@ -37,6 +37,7 @@ public class PadTeleport : MonoBehaviour
 
     VRTK.VRTK_StraightPointerRenderer vrtk_spr;
     bool set = false;
+    bool blue = false;
     GameObject rightHand;
     // Use this for initialization
     void Start ()
